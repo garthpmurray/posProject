@@ -1,0 +1,18 @@
+[submodule "vendor/yiisoft/yii"]
+	path =vendor/yiisoft/yii
+	url = git://github.com/yiisoft/yii.git
+[submodule "common/modules/signage"]
+	path = common/modules/signage
+	url = git@bitbucket.org:Sourcetoad/360signage.git
+[submodule "common/modules/middleware"]
+	path = common/modules/middleware
+	url = git@bitbucket.org:Sourcetoad/middlewaremodule.git
+[submodule "common/modules/middlewareRebuild"]
+	path = common/modules/middlewareRebuild
+	url = git@bitbucket.org:Sourcetoad/middlewarerebuild.git
+[submodule "common/modules/entertainment"]
+	path = common/modules/entertainment
+	url = git@bitbucket.org:Sourcetoad/360entertainment.git
+[submodule "common/modules/gate"]
+	path = common/modules/gate
+	url = git@bitbucket.org:Sourcetoad/360gate.git

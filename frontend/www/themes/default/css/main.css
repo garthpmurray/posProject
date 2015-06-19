@@ -1,0 +1,109 @@
+#sidebar li{
+    list-style: none;
+}
+
+.breadcrumb li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button-column {
+    width: 70px !important;
+}
+
+#content legend ul li {
+    display: inline-block;
+    list-style: none outside none;
+}
+#content legend ul {
+    float: right;
+}
+.table .table{
+    margin-bottom: 0;
+}
+
+.orders{
+    border-radius: 0;
+}
+
+span[class*='glyphicon-chevron-']{
+    cursor: pointer;
+}
+
+.image_picker_selector{
+    height: 250px;
+    overflow: scroll;
+}
+
+.image_picker_selector li{
+    float: none !important;
+    margin-right: 0px !important;
+}
+
+.image_picker_selector .thumbnail p{
+    float: left;
+    margin-left: 10px;
+}
+
+.image_picker_selector .thumbnail:after{
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.image_picker_selector img{
+    width: 40%;
+    float: left;
+}
+
+.assetform{
+    position: relative;
+}
+
+.assetform .glyphicon.glyphicon-remove {
+    cursor: pointer;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 15px;
+}
+
+.assetform .glyphicon.glyphicon-remove:hover{
+    color: red;
+}
+
+.assetPickerList{
+    width: 100%;
+}
+
+.assetPickerList li{
+    list-style: none;
+    display: inline-block;
+}
+
+.assetPickerList li .img-thumbnail{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.assetPickerList li .img-thumbnail:hover{
+    -webkit-box-shadow: 1px 1px 6px #3e7dcf;
+       -moz-box-shadow: 1px 1px 6px #3e7dcf;
+            box-shadow: 1px 1px 6px #3e7dcf;
+    
+}
+
+.assetPickerList li .title{
+    border: 0px;
+}
+
+.slider{
+    margin-top: 8px;
+}
+
+
+
+
+

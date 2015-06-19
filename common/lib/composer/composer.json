@@ -1,0 +1,44 @@
+{
+    "name": "sourcetoad/middleware360",
+    "description": "Data interchange middleware application.",
+    "type": "project",
+    "homepage": "http://www.sourcetoad.com",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "David Eddy",
+            "email": "david@sourcetoad.com",
+            "homepage": "http://www.davidjeddy.com",
+            "role": "Lead Developer"
+        },
+        {
+            "name": "Garth Murray",
+            "email": "garth@sourcetoad.com",
+            "homepage": "http://www.garthpmurray.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "../../../vendor",
+        "require-all": true
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "yiisoft/yii": "dev-master",
+        "ua-parser/uap-php": "*",
+        "macx/rfc-4122-uuid" : "1.0.*"
+    },
+    "require-dev": {
+        "codeception/codeception": "*",
+        "fabpot/php-cs-fixer": "*",
+        "fzaninotto/faker": "1.5.*@dev",
+        "pdepend/pdepend" : "2.0.4",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "phpunit/php-code-coverage": "*",
+        "phpunit/phpunit": "*",
+        "sebastian/phpcpd": "*",
+        "sebastian/phpdcd": "*"
+    }
+}
