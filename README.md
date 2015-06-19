@@ -17,7 +17,7 @@ Modify common/config/db.php as necessary, if local create: common/config/db-loca
 
 return array(
     'pdoClass'              => 'NestedPDO',
-    'connectionString'      => 'pgsql:host=localhost;port=5432;dbname=360Parent',
+    'connectionString'      => 'pgsql:host=localhost;port=5432;dbname=pos',
     'username'              => '',
     'password'              => '',
     'charset'               => 'utf8',
